@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: java-sa
+  namespace: pet-clinic-app
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::814200988517:role/external-secret
